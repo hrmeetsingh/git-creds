@@ -1,0 +1,41 @@
+{
+  "name": "git-creds",
+  "version": "1.0.0",
+  "description": "A command-line tool to easily switch between different Git credentials and SSH keys",
+  "main": "index.js",
+  "bin": {
+    "git-creds": "./bin/switch-git-creds.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "credentials",
+    "ssh",
+    "cli",
+    "switch",
+    "user",
+    "email"
+  ],
+  "author": "Harmeet Singh <er.harmeetsingh@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2",
+    "simple-git": "^3.19.0",
+    "fs-extra": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrmeetsingh/git-creds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hrmeetsingh/git-creds/issues"
+  },
+  "homepage": "https://github.com/hrmeetsingh/git-creds#readme"
+}
